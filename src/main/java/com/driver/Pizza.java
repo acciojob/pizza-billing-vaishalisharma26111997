@@ -11,10 +11,10 @@ public class Pizza {
         // your code goes here
         if(isVeg==true)
         { price=300;
-        System.out.println("Base Price Of The Pizza:"+ price);}
+        System.out.println("Base Price Of The Pizza:"+price);}
         else
         {price=400;
-            System.out.println("Base Price Of The Pizza:"+ price);}
+            System.out.println("Base Price Of The Pizza:"+price);}
 
     }
 
