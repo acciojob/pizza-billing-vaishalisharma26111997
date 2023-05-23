@@ -26,35 +26,36 @@ public class Pizza {
     }
 
     public void addExtraCheese(){
-
+        if(isExtracheesAdded==false) {
             isExtracheesAdded = true;
             price += 80;
+        }
     }
 
     public void addExtraToppings(){
         // your code goes here
+if( isExtraToppingAdded) {
+    isExtraToppingAdded = true;
+    if (isVeg == true) {
+        toppingprize = 70;
+        price += 70;
 
-            isExtraToppingAdded = true;
-            if (isVeg == true) {
-                toppingprize=70;
-                price += 70;
+    } else {
+        {
+            toppingprize = 120;
+            price += 120;
 
-            } else {
-                {
-                    toppingprize=120;
-                    price += 120;
-
-                }
-            }
-
+        }
+    }
+}
     }
 
     public void addTakeaway(){
         // your code goes here
-
-            isTakeAway = true;
-            price += 20;
-
+  if(isTakeAway==false) {
+      isTakeAway = true;
+      price += 20;
+  }
 
     }
 
